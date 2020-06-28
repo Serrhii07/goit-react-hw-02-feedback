@@ -1,12 +1,15 @@
 .feedback {
-  margin-bottom: 40px;
+  display: flex;
+  padding: 0;
+  margin: 0 0 40px 0;
+  list-style: none;
+}
+
+.feedback_item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .feedback_btn {
   font-weight: 600;
   cursor: pointer;
-}
-
-.feedback_btn:not(:last-child) {
-  margin-right: 10px;
 }
