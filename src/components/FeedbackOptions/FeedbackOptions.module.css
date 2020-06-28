@@ -1,0 +1,12 @@
+.feedback {
+  margin-bottom: 40px;
+}
+
+.feedback_btn {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.feedback_btn:not(:last-child) {
+  margin-right: 10px;
+}
